@@ -477,7 +477,7 @@ div[data-v-40fac9df] .tsv-footer::before {
 }
 
 /* Reactions */
-.ts-reactions {
+.tsv-flex.tsv-flex-wrap.ts-reactions {
   margin-left: 50px !important; /* Align reactions slightly indented from message */
 }
 
