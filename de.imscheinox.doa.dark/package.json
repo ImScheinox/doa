@@ -1,8 +1,8 @@
 {
-  "name": "DOA Dark Theme",
+  "name": "DOA Theme",
   "description": "DOA TeamSpeak by ImScheinox",
   "version": "1.0.0",
-  "identifier": "de.imscheinox.doa.dark",
+  "identifier": "de.imscheinox.doa",
   "engines": {
     "teamspeak": 1
   },
@@ -11,7 +11,7 @@
         "directory": "doa",
         "type": "git"
     },
-    "image": "DOA_dark_theme.png",
+    "image": "DOA_theme.png",
     "license": "MIT",
     "author": {
         "name": "ImScheinox",
@@ -22,51 +22,63 @@
   "content": {
     "themes": [
       {
-        "name": "Dark Base",
-        "source": "DOA_dark.css",
+        "name": "DOA Base",
+        "source": "DOA.css",
+        "image": "DOA_base.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "Dark DOA",
+        "source": "DOA_dark_base.css",
         "image": "DOA_dark_base.png",
 	"apiVersion": 1
       },
       {
-        "name": "Dark Red",
-        "source": "DOA_dark_red.css",
-        "image": "DOA_dark_red.png",
+        "name": "DOA Red",
+        "source": "DOA_red.css",
+        "image": "DOA_red.png",
 	"apiVersion": 1
       },
       {
-        "name": "Dark Green",
-        "source": "DOA_dark_green.css",
-        "image": "DOA_dark_green.png",
+        "name": "DOA Green",
+        "source": "DOA_green.css",
+        "image": "DOA_green.png",
 	"apiVersion": 1
       },
       {
-        "name": "Dark Blue",
-        "source": "DOA_dark_blue.css",
-        "image": "DOA_dark_blue.png",
+        "name": "DOA Blue",
+        "source": "DOA_blue.css",
+        "image": "DOA_blue.png",
 	"apiVersion": 1
       },
       {
-        "name": "Dark Yellow",
-        "source": "DOA_dark_yellow.css",
-        "image": "DOA_dark_yellow.png",
+        "name": "DOA Yellow",
+        "source": "DOA_yellow.css",
+        "image": "DOA_yellow.png",
 	"apiVersion": 1
       },
       {
-        "name": "Dark Orange",
-        "source": "DOA_dark_orange.css",
-        "image": "DOA_dark_orange.png",
+        "name": "DOA Orange",
+        "source": "DOA_orange.css",
+        "image": "DOA_orange.png",
 	"apiVersion": 1
       },
       {
-        "name": "Dark Pink",
-        "source": "DOA_dark_pink.css",
-        "image": "DOA_dark_pink.png",
+        "name": "DOA Pink",
+        "source": "DOA_pink.css",
+        "image": "DOA_pink.png",
 	"apiVersion": 1
       },
       {
-        "name": "Dark Purple",
-        "source": "DOA_dark_purple.css",
-        "image": "DOA_dark_purple.png",
+        "name": "DOA Purple",
+        "source": "DOA_purple.css",
+        "image": "DOA_purple.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA Darker",
+        "source": "DOA_darker_base.css",
+        "image": "DOA_darker_base.png",
 	"apiVersion": 1
       }
 
