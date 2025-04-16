@@ -32,7 +32,7 @@
   --teamspeak-text-primary: #dcddde;     /* Standard text */
   --teamspeak-text-secondary: #b9bbbe;   /* Secondary text, placeholders */
   --teamspeak-text-muted: #72767d;       /* Timestamps, very subtle info */
-  --teamspeak-text-link: #00aff4;        /* Hyperlinks */
+  --teamspeak-text-link: var(--teamspeak-blue);        /* Hyperlinks */
   --teamspeak-header-primary: #ffffff;   /* Main headers, titles */
   --teamspeak-header-secondary: #b9bbbe; /* Sub-headers, less important titles */
 
@@ -299,7 +299,7 @@
 div[data-v-40fac9df] .tsv-footer::before {
   border-top: 2px solid var(--teamspeak-dark-bg-secondary) !important;
 }
-
+}
 .ts-server-tree-item-background-no-image { /* Channel background */
   background: transparent !important; /* Make channels transparent, showing tree BG */
 }
@@ -352,6 +352,13 @@ div[data-v-40fac9df] .tsv-footer::before {
 /* Message Timestamps (Hidden for cleaner look) */
 .ts-chat-room-event-timestamp-container {
   display: none !important;
+}
+
+/* Link Color */
+.ts-chat-room-event-bubble .ts-parsed-text-content a {
+    color: var(--teamspeak-text-link) !important;
+}
+
 }
 
 /* System Messages */
@@ -435,8 +442,21 @@ div[data-v-40fac9df] .tsv-footer::before {
 
 /* Attachments */
 .ts-chat-message-attachment {
-    margin-left: 45px; /* Align attachments like message bubbles */
+    margin-left: 50px; /* Align attachments like message bubbles */
 }
+
+.ts-chat-room-event-detailed .ts-chat-message-attachment-container.ts-timestamp-margin-left, .ts-chat-room-event-detailed .ts-timestamp-margin-left {
+    margin-left: 0px !important;
+}
+
+/* --- Custom Border for Attachment Inner containing YouTube --- */
+.ts-chat-message-attachment-inner:has(.ts-attachment-youtube-wrapper) {
+    border-left: 3px solid #FF0000 !important; /* Rote Border für den Container */
+    /* Optional: Wenn du möchtest, dass der *Inhalt* dann noch weiter eingerückt wird: */
+    /* padding-left: 8px !important; */
+    /* box-sizing: border-box !important; */ /* Nötig, wenn padding-left oben verwendet wird */
+}
+
 .ts-chat-message-attachment-inner {
   background-color: var(--teamspeak-dark-bg-secondary) !important;
   border: 1px solid var(--teamspeak-border-color) !important;
