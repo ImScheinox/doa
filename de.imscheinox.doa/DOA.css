@@ -470,7 +470,7 @@
 }
 
 /* Reactions */
-.ts-reactions {
+.tsv-flex.tsv-flex-wrap.ts-reactions {
   margin-left: 50px !important; /* Align reactions slightly indented from message */
 }
 
