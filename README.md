@@ -7,8 +7,16 @@
 [![Downloads Darker](https://img.shields.io/github/downloads/ImScheinox/doa/darker-v1.0.0/total?label=Downloads%20Darker)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.0)
 
 # DOA-TeamSpeak-Theme
-The theme provides a darker TeamSpeak client.
-In addition to the changed colours, every clickable element now also has a mouse pointer. In addition, more elements have a hover effect. The chat has also been customised and now has a new look!
+The theme provides:
+<ul>
+  <li>Darker TeamSpeak client</li>
+  <li>Clickable elements with mouse pointer</li>
+  <li>Hover effects on elements that previously had none</li>
+</ul>
+
+The chat has also been customised and now has a new look! (Enable Detailed Chat for the best experience)
+![image](https://github.com/user-attachments/assets/dbd5272d-aab6-47a7-95a1-fc071fcf50a8)
+
 ## Base variant:
 ![TS_Base](https://github.com/user-attachments/assets/6163f27d-3b2e-460c-b2b6-53a48c0f92ff)
 ## Dark variant:
@@ -33,6 +41,8 @@ In addition to the changed colours, every clickable element now also has a mouse
   <img src="https://github.com/user-attachments/assets/444d5bf1-bee3-43ef-ba02-59ef3f8a0f47" width="300">
 </p>
 
+The Base, Dark and Darker themes each contain all the colours shown here. The base variant also includes the base version of Dark and Darker.
+
 ## Installing the theme
 
 The theme can be activated in <code>Settings → Apperance → User Theme</code> <strong>(you need to reload the themes or restart the client for it to show up)</strong>
@@ -51,6 +61,11 @@ The theme can be activated in <code>Settings → Apperance → User Theme</code>
 <p dir="auto"><strong>Mac:</strong> ~/Library/Preferences/TeamSpeak/Default/extensions</p>
 </div>
 </blockquote>
+
+## Edit the Theme
+If your desired color is not included, you can simply adjust the colors in the css file!
+
+![image](https://github.com/user-attachments/assets/5f343a6d-bf82-4b9a-8659-f113794440fb)
 
 ## Credits
 Thanks to <a href="https://community.teamspeak.com/u/gamer92000" rel="nofollow"><strong>Gamer92000</strong></a> and <a href="https://community.teamspeak.com/u/LeonmarcelHD" rel="nofollow"><strong>LeonMarcelHD</strong></a>  for inspiring me to create a theme as well. And especially to whole team  <a href="https://community.teamspeak.com" rel="nofollow"><strong>@TeamSpeak</strong></a>  for implementing the official theming engine!
