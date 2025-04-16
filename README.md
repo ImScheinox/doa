@@ -41,7 +41,7 @@ The chat has also been customised and now has a new look! (Enable Detailed Chat 
   <img src="https://github.com/user-attachments/assets/444d5bf1-bee3-43ef-ba02-59ef3f8a0f47" width="300">
 </p>
 
-The Base, Dark and Darker themes each contain all the colours shown here. The base variant also includes the base version of Dark and Darker.
+The Base, Dark and Darker themes each contain all the colors shown here. The base variant also includes the base version of Dark and Darker.
 
 ## Installing the theme
 
