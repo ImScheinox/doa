@@ -12,7 +12,7 @@
 [![Downloads Darker 1.0.1](https://img.shields.io/github/downloads/ImScheinox/doa/darker-v1.0.1/total?label=Downloads%20Darker%201.0.1)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.1)
 
 
-![Total Downloads](https://img.shields.io/github/downloads/ImScheinox/doa/total?label=Total%20DOA%20Downloads)
+![Total Downloads](https://img.shields.io/github/downloads/ImScheinox/doa/total?label=Total%20Downloads)
 
 # DOA-TeamSpeak-Theme
 The theme provides:
