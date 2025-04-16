@@ -65,7 +65,7 @@
       },
       {
         "name": "Darker Base",
-        "source": "DOA_even_darker.css",
+        "source": "DOA_darker.css",
         "image": "DOA_darker_base.png",
 	"apiVersion": 1
       }
