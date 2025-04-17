@@ -436,8 +436,8 @@ div[data-v-40fac9df] .tsv-footer::before {
 .ts-currently-referencing .ts-reply .ts-reply-icon { /* Ensure icons/links match */
   color: var(--teamspeak-text-link) !important;
 }
-.ts-rendered-message .ts-reply .ts-reply-icon { /* Default reply icon color */
-    color: var(--teamspeak-text-primary) !important;
+.ts-rendered-message .ts-reply .ts-reply-icon {
+    --tsv-icon-base: var(--teamspeak-text-primary) !important;
 }
 
 /* Attachments */
@@ -639,6 +639,167 @@ strong {
     border-radius: var(--tsv-border-radius) !important;
 }
 
+/* Hover, Active, Selected Styles */
+.ts-server-tree-item-leaf:hover .tsv-item-highlight,
+.ts-server-tree-item-leaf:hover .tsv-item-highlight-extra,
+.ts-server-tree-item-leaf.tsv-active .tsv-item-highlight,
+.ts-server-tree-item-leaf.tsv-active .tsv-item-highlight-extra,
+.ts-server-tree-item-leaf.tsv-selected .tsv-item-highlight,
+.ts-server-tree-item-leaf.tsv-selected .tsv-item-highlight-extra {
+    display: block !important;
+    background: var(--teamspeak-blue-transparent-light, rgba(50,150,255,0.3)) !important;
+    box-shadow: inset 0 0 0 0.5px var(--tsv-tint, #5095ff) !important;
+    border: 1px solid var(--tsv-tint) !important;
+    border-radius: var(--tsv-border-radius) !important;
+}
+
+/* Border Radius for Highlight-After Elements  */
+.ts-server-tree-item-leaf.channel:not(.spacer).is-full .tsv-item-highlight::after,
+.ts-server-tree-item-leaf.channel:not(.spacer).is-full .tsv-item-highlight-extra::after,
+.ts-server-tree-item-leaf.channel:not(.spacer).has-password .tsv-item-highlight::after,
+.ts-server-tree-item-leaf.channel:not(.spacer).has-password .tsv-item-highlight-extra::after {
+    border-radius: var(--tsv-border-radius) !important;
+}
+
+/* Border Radius Styles Channel/Spacer */
+.ts-server-tree-item-leaf .tsv-item-highlight,
+.ts-server-tree-item-leaf .tsv-item-highlight-extra,
+.ts-server-tree-item-leaf .ts-server-tree-item-background-image,
+.ts-server-tree-item-leaf .ts-server-tree-item-background-image-full,
+.ts-server-tree-item-leaf .ts-server-tree-item-background-no-image,
+.ts-server-tree-item-node .ts-expander,
+.ts-server-tree-item-node .ts-expander-spacing {
+    border-radius: var(--tsv-border-radius) !important;
+}
+
+/* Backgroundcolor Expander */
+.ts-server-tree-item-node .ts-expander,
+.ts-server-tree-item-node .ts-expander-spacing {
+    background-color: var(--teamspeak-dark-bg-secondary) !important;
+}
+
+
+/* Channel/Spacer Banner center */
+.ts-server-tree-item-background-image img,
+.ts-server-tree-item-background-image-full img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100% !important;
+  height: auto !important;
+}
+
+ .ts-server-tree-item-leaf .ts-server-tree-item-text.banner {
+    text-shadow: 0 1px 3px var(--tsv-contrast-bg),
+    0 0 12px var(--tsv-contrast-bg), 
+    0 0 8px var(--tsv-contrast-bg), 
+    0 0 4px var(--tsv-contrast-bg);
+}
+
+/* Microphone/Sound Buttons in Header */
+.tsv-header .tsv-central-toolbar-buttons::before {
+    border-radius: var(--tsv-border-radius) !important;
+}
+
+/* Border Radius */
+.ts-card, 
+.ts-chat-input-container-content,
+.ts-chat-input-container,
+.tsv-view-background__img,
+.ts-server-tree-active-status,
+.ts-server-tree-inactive-status,
+.multiselect,
+.ts-server-tree-item-groups span,
+.tsv-table>.tsv-table-header>.tsv-table-header-entry:not(.no-border)::after,
+.ts-breadcrumbs,
+.ts-info-files-channel-inner .tsv-files-quickinfo,
+.tsv-settings-theme-picker .tsv-settings-theme-picker-item,
+.ts-appearance-settings .ts-collection-item,
+.tsv-view-banner .tsv-view-background,
+.tsv-server-info-grid .tsv-server-info-grid-item, 
+.tsv-server-info-grid .tsv-server-info-grid-left, 
+.tsv-detail-info-topic .tsv-server-info-topic-banner, 
+.ts-widget-container > .ts-widget:not(.transparent), 
+.ts-widget-wrapper, 
+.tsv-dashboard-servers__content, 
+.tsv-dashboard-chats, 
+.tsv-dashboard-news, 
+.tsv-dashboard-widget, 
+.ts-discovery-card-border:after, 
+.ts-discovery-card,  
+.server-spotlight-space, 
+.ts-discovery-card .ts-discovery-header, 
+.ts-discovery-card--sticky, 
+.tsv-dashboard-chats .server-hosting > .tsv-dashboard-widget .tsv-dashboard-widget-content, 
+.ts-notification::before, 
+.tsv-view-banner .tsv-view-background:after {
+    border-radius: var(--tsv-border-radius) !important;
+}
+
+.ts-appearance-settings .ts-collection-container,
+.tsv-item-accessory {
+    cursor: pointer !important;
+}
+
+/* --- Hover Effects in right click menus --- */
+
+li.tsv-item[data-v-f29c21fc] .tsv-item-accessory svg.tsv-icon .tsv-icon-base-stroke,
+li.tsv-item[data-v-f29c21fc] .tsv-icon-stack svg.tsv-icon .tsv-icon-base-stroke,
+li.tsv-item[data-v-f29c21fc] .tsv-item-accessory svg.tsv-icon .tsv-icon-base-fill,
+li.tsv-item[data-v-f29c21fc] .tsv-icon-stack svg.tsv-icon .tsv-icon-base-fill {
+  transition: all .1s ease-out; 
+  transform-origin: 50% 50%;
+}
+
+li.tsv-item[data-v-f29c21fc]:hover .tsv-item-accessory svg.tsv-icon .tsv-icon-base-stroke,
+li.tsv-item[data-v-f29c21fc]:hover .tsv-icon-stack svg.tsv-icon .tsv-icon-base-stroke {
+  stroke: var(--tsv-tint) !important;
+  transform: scale(1.15);
+}
+
+li.tsv-item[data-v-f29c21fc]:hover .tsv-item-accessory svg.tsv-icon .tsv-icon-base-fill,
+li.tsv-item[data-v-f29c21fc]:hover .tsv-icon-stack svg.tsv-icon .tsv-icon-base-fill {
+  fill: var(--tsv-tint) !important;
+  transform: scale(1.15);
+}
+
+
+.tsv-settings-theme-picker-item.active {
+    --preview-bg: var(--teamspeak-dark-bg-tertiary) !important;
+}
+.tsv-activity-main .tsv-header>.tsv-window-bar::after {
+    --radius: var(--main-content-top-corner-radius, var(--tsv-border-radius));
+}
+.ts-discovery-card.ts-discovery-card--sticky[data-v-0a9f8238] {
+
+    border-radius: var(--tsv-border-radius) !important;
+
+    background-color: var(--tsv-tint) !important;
+    background-image:
+        /* top left */
+        radial-gradient(circle at 0% 0%, rgba(3,90,222,255) 0%, transparent 40%),
+
+        /* top right */
+        radial-gradient(circle at 100% 0%, rgba(21,20,192,255) 0%, transparent 40%),
+
+        /* bottom left */
+        radial-gradient(circle at 0% 100%, rgba(69,128,244,255) 0%, transparent 40%),
+
+        /* bottom right */
+        radial-gradient(circle at 100% 100%, rgba(85,144,245,255) 0%, transparent 40%)
+    !important; 
+
+    background-repeat: no-repeat !important;
+}
+
+/* Red Button Hover */
+.tsv-button-filled.tsv-is-destructive:hover,
+.tsv-button-hero.tsv-is-destructive:hover {
+    background: var(--tsv-button-filled-destructive-hover-bg, #B71C1C) !important;
+}
+
+/* Testing */
 
 /* ==========================================================================
    4. Ad Removal (Thanks to Gamer92000)
