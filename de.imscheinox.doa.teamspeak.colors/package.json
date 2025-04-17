@@ -1,0 +1,75 @@
+{
+  "name": "DOA TS Theme",
+  "description": "DOA TeamSpeak by ImScheinox",
+  "version": "1.0.0",
+  "identifier": "de.imscheinox.doa.teamspeak.colors",
+  "engines": {
+    "teamspeak": 1
+  },
+    "repository": {
+        "url": "https://github.com/ImScheinox/doa",
+        "directory": "doa",
+        "type": "git"
+    },
+    "image": "DOA_ts_theme.png",
+    "license": "MIT",
+    "author": {
+        "name": "ImScheinox",
+        "email": "paulthies2@gmail.net",
+        "url": "https://dawn-alliance.de",
+        "userTag": "ImScheinox@myteamspeak.com"
+    },
+  "content": {
+    "themes": [
+      {
+        "name": "DOA TS Base",
+        "source": "DOA_ts.css",
+        "image": "DOA_ts.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA TS Red",
+        "source": "DOA_ts_red.css",
+        "image": "DOA_ts_red.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA TS Green",
+        "source": "DOA_ts_green.css",
+        "image": "DOA_ts_green.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA TS Blue",
+        "source": "DOA_ts_blue.css",
+        "image": "DOA_ts_blue.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA TS Yellow",
+        "source": "DOA_ts_yellow.css",
+        "image": "DOA_ts_yellow.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA TS Orange",
+        "source": "DOA_ts_orange.css",
+        "image": "DOA_ts_orange.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA TS Pink",
+        "source": "DOA_ts_pink.css",
+        "image": "DOA_ts_pink.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA TS Purple",
+        "source": "DOA_ts_purple.css",
+        "image": "DOA_ts_purple.png",
+	"apiVersion": 1
+      }
+
+    ]
+  }
+}
