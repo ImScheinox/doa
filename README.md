@@ -2,10 +2,6 @@
 [![Latest Version Dark](https://img.shields.io/badge/Latest%20Dark%20Version-v1.0.2-brightgreen?style=flat&link=https%3A%2F%2Fgithub.com%2FImScheinox%2Fdoa%2Freleases%2Ftag%2Fdark-v1.0.2)](https://github.com/ImScheinox/doa/releases/tag/dark-v1.0.2)
 [![Latest Version Darker](https://img.shields.io/badge/Latest%20Darker%20Version-v1.0.2-brightgreen?style=flat&link=https%3A%2F%2Fgithub.com%2FImScheinox%2Fdoa%2Freleases%2Ftag%2Fdarker-v1.0.2)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.2)
 
-[![Downloads Base 1.0.0](https://img.shields.io/github/downloads/ImScheinox/doa/base-v1.0.0/total?label=Downloads%20Base%201.0.0)](https://github.com/ImScheinox/doa/releases/tag/base-v1.0.0)
-[![Downloads Dark 1.0.0](https://img.shields.io/github/downloads/ImScheinox/doa/dark-v1.0.0/total?label=Downloads%20Dark%201.0.0)](https://github.com/ImScheinox/doa/releases/tag/dark-v1.0.0)
-[![Downloads Darker 1.0.0](https://img.shields.io/github/downloads/ImScheinox/doa/darker-v1.0.0/total?label=Downloads%20Darker%201.0.0)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.0)
-
 
 [![Downloads Base 1.0.2](https://img.shields.io/github/downloads/ImScheinox/doa/base-v1.0.2/total?label=Downloads%20Base%201.0.2)](https://github.com/ImScheinox/doa/releases/tag/base-v1.0.2)
 [![Downloads Dark 1.0.2](https://img.shields.io/github/downloads/ImScheinox/doa/dark-v1.0.2/total?label=Downloads%20Dark%201.0.2)](https://github.com/ImScheinox/doa/releases/tag/dark-v1.0.2)
