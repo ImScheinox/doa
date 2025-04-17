@@ -32,6 +32,8 @@ The chat has also been customised and now has a new look! (Enable Detailed Chat 
 ![DOA_Dark](https://github.com/user-attachments/assets/9936871d-1569-40b6-bb9e-5c5904815a29)
 ## Darker variant:
 ![DOA_Darker](https://github.com/user-attachments/assets/f401312c-e28b-4694-81b3-18de0eb22bf9)
+## TeamSpeak Colors variant:
+![DOA_tscolors](https://github.com/user-attachments/assets/63068ec3-31c7-48d6-affa-99a8a02f65ef)
 ## Colors featured in this theme:
 <p>
   <img src="https://github.com/user-attachments/assets/65cf7f40-de42-49ec-8678-f504e6d8e28c" width="300">
@@ -51,6 +53,8 @@ The chat has also been customised and now has a new look! (Enable Detailed Chat 
 </p>
 
 The Base, Dark and Darker themes each contain all the colors shown here. The base variant also includes the base version of Dark and Darker.
+
+The TeamSpeak Color Theme contains everything that base, dark and darker also have in terms of changes, just the standard Teamspeak colors as backgrounds.
 
 ## Installing the theme
 
