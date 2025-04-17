@@ -10,6 +10,7 @@
 [![Downloads Base 1.0.2](https://img.shields.io/github/downloads/ImScheinox/doa/base-v1.0.2/total?label=Downloads%20Base%201.0.2)](https://github.com/ImScheinox/doa/releases/tag/base-v1.0.2)
 [![Downloads Dark 1.0.2](https://img.shields.io/github/downloads/ImScheinox/doa/dark-v1.0.2/total?label=Downloads%20Dark%201.0.2)](https://github.com/ImScheinox/doa/releases/tag/dark-v1.0.2)
 [![Downloads Darker 1.0.2](https://img.shields.io/github/downloads/ImScheinox/doa/darker-v1.0.2/total?label=Downloads%20Darker%201.0.2)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.2)
+[![Downloads TS-Colors 1.0.0](https://img.shields.io/github/downloads/ImScheinox/doa/tscolors-v1.0.0/total?label=Downloads%20tscolors%201.0.0)](https://github.com/ImScheinox/doa/releases/tag/tscolors-v1.0.0)
 
 
 ![Total Downloads](https://img.shields.io/github/downloads/ImScheinox/doa/total?label=Total%20Downloads)
