@@ -13,7 +13,7 @@
 [![Downloads TS-Colors 1.0.0](https://img.shields.io/github/downloads/ImScheinox/doa/tscolors-v1.0.0/total?label=Downloads%20tscolors%201.0.0)](https://github.com/ImScheinox/doa/releases/tag/tscolors-v1.0.0)
 
 
-![Total Downloads](https://img.shields.io/github/downloads/ImScheinox/doa/total?label=Total%20Downloads)
+![Total Downloads](https://img.shields.io/github/downloads/ImScheinox/doa/total?label=Total%20Downloads%20All%20Versions)
 
 # DOA-TeamSpeak-Theme
 The theme provides:
