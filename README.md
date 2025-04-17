@@ -7,9 +7,9 @@
 [![Downloads Darker 1.0.0](https://img.shields.io/github/downloads/ImScheinox/doa/darker-v1.0.0/total?label=Downloads%20Darker%201.0.0)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.0)
 
 
-[![Downloads Base 1.0.1](https://img.shields.io/github/downloads/ImScheinox/doa/base-v1.0.1/total?label=Downloads%20Base%201.0.1)](https://github.com/ImScheinox/doa/releases/tag/base-v1.0.1)
-[![Downloads Dark 1.0.1](https://img.shields.io/github/downloads/ImScheinox/doa/dark-v1.0.1/total?label=Downloads%20Dark%201.0.1)](https://github.com/ImScheinox/doa/releases/tag/dark-v1.0.1)
-[![Downloads Darker 1.0.1](https://img.shields.io/github/downloads/ImScheinox/doa/darker-v1.0.1/total?label=Downloads%20Darker%201.0.1)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.1)
+[![Downloads Base 1.0.2](https://img.shields.io/github/downloads/ImScheinox/doa/base-v1.0.2/total?label=Downloads%20Base%201.0.1)](https://github.com/ImScheinox/doa/releases/tag/base-v1.0.2)
+[![Downloads Dark 1.0.2](https://img.shields.io/github/downloads/ImScheinox/doa/dark-v1.0.2/total?label=Downloads%20Dark%201.0.1)](https://github.com/ImScheinox/doa/releases/tag/dark-v1.0.2)
+[![Downloads Darker 1.0.2](https://img.shields.io/github/downloads/ImScheinox/doa/darker-v1.0.2/total?label=Downloads%20Darker%201.0.1)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.2)
 
 
 ![Total Downloads](https://img.shields.io/github/downloads/ImScheinox/doa/total?label=Total%20Downloads)
@@ -26,11 +26,11 @@ The chat has also been customised and now has a new look! (Enable Detailed Chat 
 ![image](https://github.com/user-attachments/assets/dbd5272d-aab6-47a7-95a1-fc071fcf50a8)
 
 ## Base variant:
-![TS_Base](https://github.com/user-attachments/assets/6163f27d-3b2e-460c-b2b6-53a48c0f92ff)
+![DOA_Base](https://github.com/user-attachments/assets/09ccfa8a-956b-4660-8173-362a584b84ff)
 ## Dark variant:
-![TS_Dark](https://github.com/user-attachments/assets/31ce86b4-dedc-4347-9439-9213fd4fd847)
+![DOA_Dark](https://github.com/user-attachments/assets/9936871d-1569-40b6-bb9e-5c5904815a29)
 ## Darker variant:
-![TS_Darker](https://github.com/user-attachments/assets/ddaef44a-7de9-49fc-89ed-4aecb849c094)
+![DOA_Darker](https://github.com/user-attachments/assets/f401312c-e28b-4694-81b3-18de0eb22bf9)
 ## Colors featured in this theme:
 <p>
   <img src="https://github.com/user-attachments/assets/65cf7f40-de42-49ec-8678-f504e6d8e28c" width="300">
