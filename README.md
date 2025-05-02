@@ -11,7 +11,7 @@
 
 ![Total Downloads](https://img.shields.io/github/downloads/ImScheinox/doa/total?label=Total%20Downloads%20All%20Versions)
 
-# DOA-TeamSpeak-Theme
+# DOA-TeamSpeak 5/6-Theme
 The theme provides:
 <ul>
   <li>Darker TeamSpeak client</li>
