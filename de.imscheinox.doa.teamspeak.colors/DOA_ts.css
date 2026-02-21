@@ -1,7 +1,7 @@
 /*
- * DOA - (Highly customizable TeamSpeak Theme)
+ * DOA - (customizable TeamSpeak Theme)
  * Author: ImScheinox
- * Version: 1.0 
+ * Version: 1.0.1
  * Description: A dark appearance for TeamSpeak 5/6.
  */
 
@@ -20,41 +20,26 @@
   --teamspeak-blue-transparent: rgba(88, 101, 242, 0.3);
   --teamspeak-blue-transparent-light: rgba(88, 101, 242, 0.1);
 
-  /* Backgrounds  */
+  /* Background Colors  */
   --teamspeak-dark-bg-primary: #2b3346;
   --teamspeak-dark-bg-secondary: #1c2539;
   --teamspeak-dark-bg-tertiary: #121a2c;
-  --teamspeak-header-secondary: #a7a7a7;
-  --tsv-contrast: var(--teamspeak-dark-bg-tertiary) !important;
-  --preview-bg: var(--teamspeak-dark-bg-tertiary) !important;;
-  --card-background: var(--teamspeak-dark-bg-secondary) !important;
   
-  /* Text */
+  /* Text Colors*/
   --teamspeak-text-primary: #f1fff9;
   --teamspeak-text-secondary: #697a97;
   --teamspeak-text-link: var(--teamspeak-blue);
-  --teamspeak-mention-self-bg: var(--teamspeak-blue-transparent);
-  --teamspeak-mention-bg: rgba(250, 166, 26, 0.05);
+  --teamspeak-header-primary: #ffffff;
   
-  /* Scrollbar */
+  /* Interactive Colors (Buttons, etc.) */
+  --teamspeak-interactive-normal: #b9bbbe;
+  
+  /* Other */
+  --teamspeak-mention-bg: rgba(250, 166, 26, 0.05);
+  --teamspeak-mention-self-bg: var(--teamspeak-blue-transparent);
   --teamspeak-scrollbar-thumb: var(--teamspeak-dark-bg-tertiary);
   --teamspeak-scrollbar-track: var(--teamspeak-text-secondary);
-  
-  /* Icons */
-  --tsv-tint: var(--teamspeak-blue) !important;
-  --tsv-icon-tint: var(--teamspeak-blue) !important;;
-  --default-tsv-tint: var(--teamspeak-blue) !important;
-  
-  /* Misc */
-  --teamspeak-interactive-normal: #b9bbbe;
-  --teamspeak-interactive-muted: #4f545c;
   --teamspeak-border-color: rgba(32, 34, 37, 0.8);
-  --tsv-button-filled-hover-bg: var(--teamspeak-blue) !important;
-  --custom-color-slider1: var(--teamspeak-blue) !important;
-  --custom-color-slider2: var(--teamspeak-interactive-muted) !important;
-  --teamspeak-dark-bg-modifier-selected: rgba(79, 84, 92, 0.32);
-  --tsv-shaded-bg-selection: #e02619;
-  --tsv-shaded-bg: var(--teamspeak-dark-bg-secondary) !important;
   
 /* ==========================================================================
    2. TeamSpeak Variable Mapping (--tsv-* / --ts-*)
@@ -66,9 +51,6 @@
   /* General Accent / Tint */
   --tsv-tint: var(--teamspeak-blue) !important; /* Primary accent color */
   --tsv-tint2: var(--teamspeak-blue) !important; /* Secondary accent color (often same as primary) */
-  --default-tsv-tint: var(--teamspeak-blue) !important; /* Default tint */
-  --tsv-highlight-color: var(--teamspeak-blue-transparent) !important; /* General highlight background */
-  --highlight-outline-color: var(--teamspeak-blue-transparent) !important; /* Outline for highlights */
 
   /* Backgrounds */
   --tsv-bg: var(--teamspeak-dark-bg-primary) !important;                 /* Main Application Background */
@@ -87,12 +69,11 @@
   --ts-new-header-bg: var(--teamspeak-dark-bg-tertiary) !important;      /* Main Header Bar BG */
   --tsv-header-bg: var(--teamspeak-dark-bg-secondary) !important;        /* General Header BG */
   --tsv-view-header-bg: var(--teamspeak-dark-bg-secondary) !important;   /* View-specific Header BG */
+  
   /* Removing gradients for a flatter look */
   --tsv-view-header-gradient-start: var(--teamspeak-dark-bg-secondary) !important;
   --tsv-server-header-gradient-start: var(--teamspeak-dark-bg-secondary) !important;
   --tsv-server-header-gradient-end: var(--teamspeak-dark-bg-secondary) !important;
-  --tsv-highlight-header-bg: linear-gradient(to right, var(--teamspeak-blue-transparent-light) 0, var(--teamspeak-dark-bg-secondary) 100%) !important; /* Highlighted Header (e.g., unread) */
-  --tsv-unrelated-activity-header-bg: var(--teamspeak-dark-bg-secondary) !important; /* Header for unrelated activity */
 
   /* Server Tree / Sidebar */
   --tsv-servertree-bg-gradient: var(--teamspeak-dark-bg-primary) !important; /* Using solid color for Server Tree BG */
@@ -110,26 +91,17 @@
   --ts-chat-system-message-color: var(--teamspeak-text-muted) !important; /* Default system message text */
 
   /* Buttons */
-  --tsv-button-bg: var(--teamspeak-interactive-muted) !important; /* Default button background (Grey) */
-  --tsv-button-hover-bg: var(--teamspeak-blue-hover) !important; /* Default button hover background */
   --tsv-button-filled-bg: var(--teamspeak-blue) !important; /* Filled/Primary button background (Blue) */
   --tsv-button-filled-hover-bg: var(--teamspeak-blue-hover) !important; /* Filled/Primary button hover background */
-  --tsv-button-filled-disabled-bg: var(--teamspeak-interactive-muted) !important; /* Disabled filled button */
-  --tsv-control-handle-active-bg: var(--teamspeak-blue) !important; /* Active control handle (e.g., slider) */
-  --hero-button-background: var(--teamspeak-blue) !important; /* Hero button background */
 
   /* Text / Fonts */
   --tsv-font-color: var(--teamspeak-text-primary) !important; /* Default font color */
   --tsv-font-subtitle-color: var(--teamspeak-text-secondary) !important; /* Subtitle font color */
   --ts-third-font-color: var(--teamspeak-header-primary) !important; /* Tertiary font (often brighter/header-like) */
-  --custom-color-secondary-text: var(--teamspeak-text-secondary) !important; /* Custom secondary text mapping */
 
   /* Borders / Separators */
   --tsv-separation-border: 1px solid var(--teamspeak-border-color) !important; /* Default separator */
-  --ts-drag-border: var(--teamspeak-blue) !important; /* Drag indicator border */
   --horizontal-separator-color: var(--teamspeak-border-color) !important; /* Horizontal separator */
-  --presence-separator-presence: var(--teamspeak-border-color) !important; /* Separator in presence lists */
-  --tsv-context-menu-border: var(--teamspeak-border-color) !important; /* Context menu border */
   --card-outline: var(--teamspeak-blue) !important; /* Card outline (when focused/active) */
 
   /* Menus / Selections */
@@ -313,9 +285,6 @@
 .ts-server-tree-active-status {   /* Online status icon BG (less common) */
     background: var(--teamspeak-dark-bg-secondary) !important;
 }
-.ts-sidebar-tab-sub-panel-accessory { /* Make accessory icons clickable */
-  cursor: pointer !important;
-}
 
 /* --- Chat Area --- */
 
@@ -358,8 +327,6 @@
     color: var(--teamspeak-text-link) !important;
 }
 
-}
-
 /* System Messages */
 .ts-chat-message-system-body {
     border-left: 2px solid var(--teamspeak-border-color) !important; /* Subtle left border */
@@ -373,8 +340,8 @@
 /* System message background in different views */
 .tsv-view.tsv-activity .ts-chat-room-event-detailed.is-system .ts-chat-message-system-body,
 .ts-activity-slideover-container .ts-chat-room-event-detailed.is-system .ts-chat-message-system-body {
-    background: var(--teamspeak-dark-bg-secondary) !important;
     border-radius: var(--tsv-border-radius) !important;
+	border-color: transparent !important;
 }
 
 /* Mentions */
@@ -394,22 +361,42 @@
   /* Optional: Add border similar to self-mention if desired */
 }
 
-.tsv-virtual-list-item {
-  margin-left: 10px !important;
+.tsv-virtual-list-item:hover {
+  background-color: var(--teamspeak-dark-bg-primary) !important;
 }
 
-.tsv-virtual-list-item:hover {
+.tsv-body .tsv-flex-column .tsv-virtual-list-container .tsv-virtual-list-item:hover {
   background-color: var(--teamspeak-dark-bg-secondary) !important;
 }
 
+.tsv-activities .tsv-virtual-list-item:hover,
+.tsv-item-group .tsv-virtual-list-item:hover,
+.tsv-resize-area-container .tsv-virtual-list-item:hover {
+  background-color: transparent !important;
+}
+
 .tsv-virtual-list-item:has(.ts-chat-message-system-body):hover {
-   background-color: transparent !important; /* Oder die ursprüngliche Hintergrundfarbe */
+   background-color: transparent !important; 
 }
 
 .tsv-view.tsv-activity .tsv-view.tsv-activity-detail 
   .tsv-body.tsv-flex-column.tsv-virtual-list-container 
   .tsv-virtual-list-item:hover {
   background-color: var(--teamspeak-dark-bg-primary) !important;
+}
+
+.ts-notifications-center {
+    background: var(--teamspeak-dark-bg-primary) !important;
+}
+
+.ts-emoji-picker-emoji:hover,
+.ts-emoji-picker-anchor:hover,
+.ts-chat-input-tabs:hover {
+  cursor: pointer;
+}
+
+.ts-emoji-scroll-container .tsv-virtual-list::-webkit-scrollbar-track {
+    background: transparent !important;
 }
 
 .tsv-settings-categories.not-in-sidebar .tsv-item.tsv-selected>.tsv-item-highlight {
@@ -536,18 +523,6 @@
     box-shadow: none !important;
 }
 
-/* Activity List Styling */
-.tsv-activity-group-list { /* Used in various places like settings, activity feed */
-    background-color: var(--teamspeak-dark-bg-tertiary) !important;
-    padding: 8px !important;
-}
-.tsv-activity-group-list > li li:not(:first-child) { /* Indentation for sub-items */
-  padding-left: calc(var(--tsv-padding-h) + 10px) !important;
-}
-.tsv-settings-categories.not-in-sidebar .tsv-activity-group-list { /* Specific BG for settings list when not in sidebar */
-  background: var(--teamspeak-dark-bg-primary) !important;
-}
-
 /* --- Miscellaneous UI Elements --- */
 
 /* Scrollbar */
@@ -577,7 +552,7 @@
 /* Strong Text */
 strong {
   font-weight: 600 !important;
-  color: var(--teamspeak-header-secondary) !important; /* Use sub-header color for emphasis */
+  color: var(--teamspeak-text-primary) !important; /* Use sub-header color for emphasis */
 }
 
 /* Server/Client Events (Log Colors) */
@@ -629,7 +604,6 @@ strong {
 /* Adds padding to the right of the main chat body to push content away from the scrollbar and chat input */
 .tsv-view.tsv-activity-detail.tsv-activity-secondary .tsv-body.tsv-flex.tsv-body-background {
     padding-right: 8px !important; /* Adjust as needed */
-    margin-right: 10px !important; /* Creates space before the input container */
     box-sizing: border-box !important; /* IMPORTANT: Prevents padding from increasing element width */
 }
 
@@ -686,6 +660,14 @@ strong {
   transform: translate(-50%, -50%);
   width: 100% !important;
   height: auto !important;
+}
+
+.ts-server-tree-item-background-image img, .ts-server-tree-item-background-image-full img, .ts-server-tree-item-background-no-image img {
+    -webkit-mask-image: none !important;
+}
+
+.ts-server-tree-item-leaf.channel:hover .ts-server-tree-item-background-image__img, .ts-server-tree-item-leaf.channel.tsv-active .ts-server-tree-item-background-image__img {
+    margin-left: 0px !important;
 }
 
  .ts-server-tree-item-leaf .ts-server-tree-item-text.banner {
@@ -747,22 +729,19 @@ strong {
 
 /* --- Hover Effects in right click menus --- */
 
-li.tsv-item[data-v-f29c21fc] .tsv-item-accessory svg.tsv-icon .tsv-icon-base-stroke,
-li.tsv-item[data-v-f29c21fc] .tsv-icon-stack svg.tsv-icon .tsv-icon-base-stroke,
-li.tsv-item[data-v-f29c21fc] .tsv-item-accessory svg.tsv-icon .tsv-icon-base-fill,
-li.tsv-item[data-v-f29c21fc] .tsv-icon-stack svg.tsv-icon .tsv-icon-base-fill {
-  transition: all .1s ease-out; 
-  transform-origin: 50% 50%;
+.ts-context-menu li.tsv-item svg.tsv-icon .tsv-icon-base-stroke,
+.ts-context-menu li.tsv-item svg.tsv-icon .tsv-icon-base-fill {
+  transition: transform .1s ease-out, stroke .1s ease-out, fill .1s ease-out;
+  transform-origin: center;
 }
 
-li.tsv-item[data-v-f29c21fc]:hover .tsv-item-accessory svg.tsv-icon .tsv-icon-base-stroke,
-li.tsv-item[data-v-f29c21fc]:hover .tsv-icon-stack svg.tsv-icon .tsv-icon-base-stroke {
+/* Hover for non .tsv-icon-primary */
+.ts-context-menu li.tsv-item:hover svg.tsv-icon:not(.tsv-icon-primary) .tsv-icon-base-stroke {
   stroke: var(--tsv-tint) !important;
   transform: scale(1.15);
 }
 
-li.tsv-item[data-v-f29c21fc]:hover .tsv-item-accessory svg.tsv-icon .tsv-icon-base-fill,
-li.tsv-item[data-v-f29c21fc]:hover .tsv-icon-stack svg.tsv-icon .tsv-icon-base-fill {
+.ts-context-menu li.tsv-item:hover svg.tsv-icon:not(.tsv-icon-primary) .tsv-icon-base-fill {
   fill: var(--tsv-tint) !important;
   transform: scale(1.15);
 }
@@ -800,6 +779,85 @@ li.tsv-item[data-v-f29c21fc]:hover .tsv-icon-stack svg.tsv-icon .tsv-icon-base-f
 .tsv-button-filled.tsv-is-destructive:hover,
 .tsv-button-hero.tsv-is-destructive:hover {
     background: var(--tsv-button-filled-destructive-hover-bg, #B71C1C) !important;
+}
+
+/* New Order for Profile + Profilestatus */
+.tsv-bar .tsv-item-content.tsv-item-content-primary {
+    display: grid !important;
+    grid-template-columns: auto 1fr !important;
+    grid-template-rows: auto auto !important;
+    grid-column-gap: var(--tsv-padding-h-small) !important;
+    grid-row-gap: 1px !important;
+    align-items: center !important;
+    flex-direction: initial !important;
+    flex-wrap: initial !important;
+    height: auto !important; /* Höhe automatisch anpassen */
+}
+.tsv-bar .tsv-item-content.tsv-item-content-primary > .tsv-icon {
+    grid-column: 1 / 2 !important;
+    grid-row: 1 / 3 !important;    
+    align-self: center !important; 
+    margin-right: 0 !important; 
+    flex-shrink: 0 !important;
+}
+.tsv-bar .tsv-item-content.tsv-item-content-primary > .tsv-item-text {
+    grid-column: 2 / 3 !important; 
+    grid-row: 1 / 2 !important;    
+    align-self: end !important;    
+    display: block !important;
+    width: 100% !important;        
+    min-width: 0 !important;       
+    margin: 0 !important;          
+    padding: 0 !important;         
+    flex-grow: 1 !important; 
+    flex-shrink: 1 !important;
+}
+.tsv-bar .tsv-item-content.tsv-item-content-primary > .tsv-item-text > .tsv-text-truncate {
+    display: block !important;
+    white-space: nowrap !important; 
+    overflow: hidden !important;    
+    text-overflow: ellipsis !important; 
+    width: 100% !important;
+}
+
+.tsv-bar .tsv-item-content.tsv-item-content-primary > .tsv-item-text-detail {
+    grid-column: 2 / 3 !important; 
+    grid-row: 2 / 3 !important;    
+    align-self: start !important;  
+
+    color: var(--tsv-font-subtitle-color) !important;
+    font-size: var(--tsv-font-size-minimal) !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important; 
+    line-height: 1.2 !important;    
+    width: 100% !important;        
+    min-width: 0 !important;        
+    margin: 0 !important;           
+    padding: 0 !important;          
+    flex-grow: 0 !important; 
+    flex-shrink: 1 !important; 
+}
+
+.multiselect,
+.permission-item .tsv-item,
+.tsv-tool-menu,
+.ts-context-menu:before,
+.ts-context-menu {
+    border-radius: var(--tsv-border-radius) !important;
+}
+
+.tsv-activity-secondary .tsv-bar .tsv-segmented-control {
+    background-color: var(--teamspeak-dark-bg-tertiary) !important;
+}
+
+.multiselect__content-wrapper {
+    border-bottom-left-radius: var(--tsv-border-radius) !important;
+    border-bottom-right-radius: var(--tsv-border-radius) !important;
+}
+
+.ts-slider-knob {
+    cursor: pointer !important;
 }
 
 /* Testing */
