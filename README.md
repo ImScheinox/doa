@@ -3,10 +3,10 @@
 [![Latest Version Darker](https://img.shields.io/badge/Latest%20Darker%20Version-v1.0.3-brightgreen?style=flat&link=https%3A%2F%2Fgithub.com%2FImScheinox%2Fdoa%2Freleases%2Ftag%2Fdarker-v1.0.3)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.3)
 [![Latest Version TS Colors](https://img.shields.io/badge/Latest%20TeamSpeak%20Colors%20Version-v1.0.1-brightgreen?style=flat&link=https%3A%2F%2Fgithub.com%2FImScheinox%2Fdoa%2Freleases%2Ftag%2Ftscolors-v1.0.1)](https://github.com/ImScheinox/doa/releases/tag/tscolors-v1.0.1)
 
-[![Downloads Base 1.0.3](https://img.shields.io/github/downloads/ImScheinox/doa/base-v1.0.2/total?label=Downloads%20Base%201.0.3)](https://github.com/ImScheinox/doa/releases/tag/base-v1.0.3)
-[![Downloads Dark 1.0.3](https://img.shields.io/github/downloads/ImScheinox/doa/dark-v1.0.2/total?label=Downloads%20Dark%201.0.3)](https://github.com/ImScheinox/doa/releases/tag/dark-v1.0.3)
-[![Downloads Darker 1.0.3](https://img.shields.io/github/downloads/ImScheinox/doa/darker-v1.0.2/total?label=Downloads%20Darker%201.0.3)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.3)
-[![Downloads TS-Colors 1.0.1](https://img.shields.io/github/downloads/ImScheinox/doa/tscolors-v1.0.0/total?label=Downloads%20tscolors%201.0.1)](https://github.com/ImScheinox/doa/releases/tag/tscolors-v1.0.1)
+[![Downloads Base 1.0.3](https://img.shields.io/github/downloads/ImScheinox/doa/base-v1.0.3/total?label=Downloads%20Base%201.0.3)](https://github.com/ImScheinox/doa/releases/tag/base-v1.0.3)
+[![Downloads Dark 1.0.3](https://img.shields.io/github/downloads/ImScheinox/doa/dark-v1.0.3/total?label=Downloads%20Dark%201.0.3)](https://github.com/ImScheinox/doa/releases/tag/dark-v1.0.3)
+[![Downloads Darker 1.0.3](https://img.shields.io/github/downloads/ImScheinox/doa/darker-v1.0.3/total?label=Downloads%20Darker%201.0.3)](https://github.com/ImScheinox/doa/releases/tag/darker-v1.0.3)
+[![Downloads TS-Colors 1.0.1](https://img.shields.io/github/downloads/ImScheinox/doa/tscolors-v1.0.1/total?label=Downloads%20tscolors%201.0.1)](https://github.com/ImScheinox/doa/releases/tag/tscolors-v1.0.1)
 
 
 ![Total Downloads](https://img.shields.io/github/downloads/ImScheinox/doa/total?label=Total%20Downloads%20All%20Versions)
