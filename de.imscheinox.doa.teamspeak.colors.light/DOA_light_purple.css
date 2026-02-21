@@ -1,0 +1,24 @@
+/*
+ * DOA - (Highly customizable TeamSpeak Theme)
+ * Author: ImScheinox
+ * Version: 1.0 
+ * Description: A dark appearance for TeamSpeak 5/6.
+ */
+
+/* ==========================================================================
+   1. Core Variables (--teamspeak-*)
+   ========================================================================== */
+
+@import url(DOA_ts.css);
+:root,
+::after,
+::before {
+  /* --- Base Color Palette  --- */
+
+  /* Accent Color */
+  --teamspeak-blue: #6f42c1;                  
+  --teamspeak-blue-hover: #5a32a3;            
+  --teamspeak-blue-transparent: rgba(111, 66, 193, 0.3); 
+  --teamspeak-blue-transparent-light: rgba(111, 66, 193, 0.1); 
+
+ }

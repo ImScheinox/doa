@@ -1,0 +1,74 @@
+{
+  "name": "DOA TS Light Color Theme",
+  "description": "DOA TeamSpeak by ImScheinox",
+  "version": "1.0.0",
+  "identifier": "de.imscheinox.doa.teamspeak.colors.light",
+  "engines": {
+    "teamspeak": 1
+  },
+    "repository": {
+        "url": "https://github.com/ImScheinox/doa",
+        "directory": "doa",
+        "type": "git"
+    },
+    "image": "DOA_light_theme.png",
+    "license": "MIT",
+    "author": {
+        "name": "ImScheinox",
+        "url": "https://dawn-alliance.de",
+        "userTag": "ImScheinox@myteamspeak.com"
+    },
+  "content": {
+    "themes": [
+      {
+        "name": "DOA light Base",
+        "source": "DOA_light.css",
+        "image": "DOA_light.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA light Red",
+        "source": "DOA_light_red.css",
+        "image": "DOA_light_red.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA light Green",
+        "source": "DOA_light_green.css",
+        "image": "DOA_light_green.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA light Blue",
+        "source": "DOA_light_blue.css",
+        "image": "DOA_light_blue.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA light Yellow",
+        "source": "DOA_light_yellow.css",
+        "image": "DOA_light_yellow.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA light Orange",
+        "source": "DOA_light_orange.css",
+        "image": "DOA_light_orange.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA light Pink",
+        "source": "DOA_light_pink.css",
+        "image": "DOA_light_pink.png",
+	"apiVersion": 1
+      },
+      {
+        "name": "DOA light Purple",
+        "source": "DOA_light_purple.css",
+        "image": "DOA_light_purple.png",
+	"apiVersion": 1
+      }
+
+    ]
+  }
+}
