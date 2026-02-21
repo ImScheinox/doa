@@ -30,6 +30,9 @@ The chat has also been customised and now has a new look! (Enable Detailed Chat 
 ![DOA_Darker](https://github.com/user-attachments/assets/f401312c-e28b-4694-81b3-18de0eb22bf9)
 ## TeamSpeak Colors variant:
 ![DOA_tscolors](https://github.com/user-attachments/assets/63068ec3-31c7-48d6-affa-99a8a02f65ef)
+## Light variant:
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/e5ebcf8b-74ef-4a98-bb44-8c60e177efae" />
+
 ## Colors featured in this theme:
 <p>
   <img src="https://github.com/user-attachments/assets/65cf7f40-de42-49ec-8678-f504e6d8e28c" width="300">
